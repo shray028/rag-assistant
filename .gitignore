@@ -1,0 +1,11 @@
+# Python venv
+venv/
+
+# Node modules
+frontend/node_modules/
+backend/__pycache__/
+__pycache__/
+
+# Build outputs
+frontend/build/
+*.log
