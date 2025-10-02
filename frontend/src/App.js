@@ -1,38 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import UploadForm from "./components/UploadForm";
+import ChatBox from "./components/ChatBox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-2xl mx-auto p-6">
+      <h1 className="text-2xl font-bold mb-4">RAG Assistant UI</h1>
+      <UploadForm />
+      <ChatBox />
     </div>
   );
 }
 
 export default App;
-
-// function App() {
-//   return (
-//     <div className="flex items-center justify-center h-screen bg-gray-100">
-//       <h1 className="text-4xl font-bold text-blue-600">
-//         🚀 Tailwind is Working!
-//       </h1>
-//     </div>
-//   );
-// }
-
-// export default App;
-
